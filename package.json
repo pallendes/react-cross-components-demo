@@ -1,21 +1,17 @@
 {
-  "name": "sharing-components",
+  "name": "react-cross-components-demo",
   "version": "0.0.1",
-  "description": "Demo Monorepo",
+  "description": "React Cross Components Demo Monorepo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/braxtonchristensen/demo-monorepo.git"
+    "url": "git+https://github.com/pallendes/react-cross-components-demo.git"
   },
-  "author": "Braxton Chistensen",
-  "bugs": {
-    "url": "https://github.com/braxtonchristensen/demo-monorepo/issues"
-  },
-  "homepage": "https://github.com/braxtonchristensen/demo-monorepo#readme",
+  "author": "Pablo Allendes",
   "scripts": {
     "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage --verbose",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna exec --parallel -- babel src -d dist --ignore spec.js,story.js",
+    "build": "lerna exec --parallel -- babel src -d dist --ignore test.js,stories.js",
     "build-storybook": "build-storybook",
     "publish": "lerna publish --skip-git --skip-npm",
     "prepublish": "npm run build",

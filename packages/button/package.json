@@ -1,0 +1,11 @@
+{
+  "name": "button",
+  "version": "0.0.1",
+  "description": "A simple button component",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Pablo Allendes",
+  "dependencies": {
+    "core": "^0.0.1"
+  }
+}

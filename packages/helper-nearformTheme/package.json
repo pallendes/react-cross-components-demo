@@ -1,8 +1,0 @@
-{
-  "name": "helper-demo-theme",
-  "version": "0.0.1",
-  "description": "Core Demo theme",
-  "main": "dist/index.js",
-  "module": "src/index.js",
-  "author": "Braxton Christensen"
-}
